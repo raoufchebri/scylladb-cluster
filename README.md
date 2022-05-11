@@ -10,7 +10,7 @@ Docker-compose will spin up three nodes: scylla1, scylla2 and scylla3. You can a
 To execute nodetool:
 
 ```
-docker exec -it carepet-scylla1 nodetool status
+docker exec -it scylla1 nodetool status
 ```
 
 To execute CQLSH:
